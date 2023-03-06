@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Kanit:wght@400;500;600;800;900&family=Poppins:wght@200;300;400;500;600&display=swap");
+
+body {
+  
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  font-family: chivo, helvetica neue, sans-serif;
+  
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+.front_page,
+.bg_img,
+.container,
+.main_div1,
+.main_div1 h1,
+.front_info,
+.lead,
+.btn_gs {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.front_page {
+  height: 100%;
+  color: white;
+  flex-direction: column;
+}
+
+
+.bg_img {
+  background: rgb(113 61 169);
+  height: 100vh;
+  width: 100%;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 90%;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  background-color: (0, 0, 0, 0.6);
+  padding: 20px;
+  margin-top: -50px;
+}
+.main_div1 {
+  flex-direction: row;
+  align-content: flex-start;
+  width: fit-content;
+  margin-bottom: 15px;
+  padding: 20px 10px 30px 10px;
+  border-radius: 6px;
+  background-color: rgb(255 255 255 / 30%);
+  font-weight: 700;
+  height: 509px;
+}
+.main_div1 h1 {
+  font-size: 32px;
+  line-height: 34px;
+  margin-bottom: 1px;
+  flex-wrap: wrap;
+}
+.main_div1 h1 span {
+  margin: 0px 9px;
+  color: #35034c;
+}
+.front_info{
+  flex-direction: column;
+  width: 50%;
+}
+
+.lead {
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-size: 19px;
+  margin-bottom: 15px;
+  line-height: 24px;
+  color: black;
+}
+.btn_gs {
+  width: 165px;
+  text-decoration: none;
+  background-color: #590082;
+  box-shadow: 0px 0px 4px black;
+  color: white;
+  font-size: 15px;
+  height: 43px;
+  border-radius: 3px;
+}
+
+.btn_gs:hover {
+  background-color: #601f7e;
+  width: 170px;
+  height: 45px;
+  border-radius: 6px;
+}
+
+
+
+
+.text {
+  background-color: #04aa6d;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.nav_container {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  box-shadow: -5px 0px 5px black;
+  width: 100%;
+  background-color: rgb(231 211 239);
+}
+.n_cp {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.logo_text {
+  font-size: 30px;
+  height: 26px;
+  font-weight: 600;
+  padding-left: 15px;
+  color: #35034c;
+}
+
+
+
+.background {
+  
+  background-color: rgb(28, 28, 30);
+}
+
+.background_01 {
+  color: black;
+  background-color: rgb(253, 253, 253);
+}
+
+
+footer {
+  background-color: rgb(231 211 239);
+  color: #1e0346;
+  height: 60px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.lead {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+
+
+@media screen and (max-width: 480px) {
+  body {
+    margin: 0px;
+  }
+  .logo {
+    font-size: 30px;
+  }
+  .logo_text {
+    display: flex;
+    margin-left: -169px;
+  }
+
+  .main_div1 {
+    height: 703px;
+    flex-direction: column;
+  }
+  .front_image img {
+    display: flex !important;
+  }
+  .front_info {
+    width: 100%;
+  }
+ 
+  .main_div1 h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    width: 316px;
+    text-transform: capitalize;
+  }
+
+  .btn_gs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    line-height: 22px;
+    font-size: 18px;
+    padding: 6px 20px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #e8065f;
+    box-shadow: 0px 0px 4px black;
+    border: none;
+    outline: none;
+  }
+  .ab_footer p {
+    font-size: 19px;
+    text-align: center;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 420px) {
+  #r_img_05 .middle {
+    top: 80%;
+    left: 35%;
+  }
+  .logo_text {
+    margin-left: -111px !important;
+  }
+  .main_div1 {
+    height: 680px;
+    flex-direction: column;
+  }
+  .main_div1 img {
+    display: flex;
+    margin-top: 25px;
+    height: 300px;
+  }
+}
